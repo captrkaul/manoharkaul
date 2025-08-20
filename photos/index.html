@@ -6,18 +6,15 @@
   <title>Photo gallery of Manohar Kaul</title>
 
   <style>
-  /* Disable text selection on the entire page */
   body {
     user-select: none;
-    -webkit-user-select: none; /* Chrome, Safari */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* IE/Edge */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
-
-  /* Prevent image dragging */
   img {
-    -webkit-user-drag: none;   /* Chrome, Safari */
-    user-select: none;         /* Prevent selecting image as text */
+    -webkit-user-drag: none;
+    user-select: none;
   }
   </style>
 
@@ -42,6 +39,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
   <!-- 🔽 Site Header -->
@@ -65,10 +63,10 @@
             <a href="../biography.html">About the Artist</a>
             <ul class="dropdown-menu">
               <li><a href="../biography.html">Biography</a></li>
-              <li><a href="index.html">Photographs</a></li>
+              <li><a href="../photos/index.html">Photographs</a></li>
             </ul>
           </li>
-
+          
           <li class="dropdown">
             <a href="#">Paintings</a>
             <ul class="dropdown-menu">
@@ -93,28 +91,218 @@
   </header>
 
   <!-- 🔽 Main Content -->
-  <main class="gallery-container">
-    <h1 class="page-title">Photo Gallery</h1>
-
-    <div class="thumb-row">
-      <!-- Photos stored inside photos/ folder -->
-      <img src="photo-1.jpg" alt="Photo 1">
-      <img src="photo-2.jpg" alt="Photo 2">
-      <img src="photo-3.jpg" alt="Photo 3">
-      <img src="photo-4.jpg" alt="Photo 4">
-      <img src="photo-5.jpg" alt="Photo 5">
-
-      <!-- Example: if you want to show something from /images/personal -->
-      <img src="../images/personal/portrait.jpg" alt="Portrait">
+  <main>
+    <!-- Year Strip (sticky) -->
+    <div class="exhibition-nav-strip">
+      <a href="../biography.html">Biography</a>
+      <a href="../paintings/gallery/index.html">Paintings Gallery</a>
+      <a href="../paintings/exhibitions/index.html">All Exhibitions</a>
+      <a href="#">Top</a>
     </div>
+
+    <section class="exhibition-intro">
+      <h1>Moments with Manohar Kaul</h1>
+      <h2>A mosaic of images—personal, public, and artistic—that together reflect his journey</h2>
+    </section>
+
+    <div class="exhibition-thumbnails">
+      <div class="thumb-row">
+
+        <div class="thumb-item">
+          <img src="../images/personal/profile2.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>    
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait9.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>    
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait10.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-7.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-3.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-11.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-6.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/profile1.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+        
+        <div class="thumb-item">
+          <img src="../images/personal/portrait1.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-5.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-17.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-14.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-15.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-16.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-27.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-12.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-13.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-4.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-10.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-26.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-28.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-2.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-24.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-21.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-1.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-23.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-20.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-8.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-9.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-18.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-19.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-25.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-22.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-30.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-29.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="photo-31.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait11.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait4.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait2.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait3.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+        <div class="thumb-item">
+          <img src="../images/personal/portrait6.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>    
+
+        <div class="thumb-item">
+          <img src="../images/personal/profile8.jpg" loading="lazy" alt="photos of Manohar Kaul">
+        </div>
+
+      </div>
+    </div>  
+
+    <div class="exhibition-intro-1957">
+      <p><strong>Together, these photographs preserve the presence of an artist whose spirit continues to resonate.</strong></p>
+    </div> 
   </main>
 
   <!-- 🔽 Footer -->
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 Manohar Kaul. All rights reserved.</p>
-    </div>
+    <p>
+      &copy; 2025 | Official website of the late Manohar Kaul, maintained by 
+      <a href="https://rajeshkaul.in" target="_blank" rel="noopener noreferrer">Rajesh Kaul</a>. 
+      All rights reserved. This website is intended for educational, non-commercial, and archival purposes. 
+      The writings, letters, images, and artworks featured here are part of the personal archive of Manohar Kaul. 
+      For inquiries, please 
+      <a href="https://captrkaul.github.io/rajeshkaul/contact" target="_blank" rel="noopener noreferrer">get in touch</a>.
+    </p>
   </footer>
 
+  <script src="../css/js/main.js"></script>
+
+  <script>
+    // Disable right-click context menu across the page
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+  </script>
 </body>
 </html>
