@@ -24,21 +24,20 @@
 
   <link rel="stylesheet" href="css/main.css">
   
-      <!-- Favicon -->
-<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/web-app-manifest-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="images/favicon/web-app-manifest-512x512.png">
-<link rel="manifest" href="images/favicon/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/web-app-manifest-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/web-app-manifest-512x512.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Matangi&family=Oswald&family=Nunito+Sans&display=swap" rel="stylesheet">
-  <!-- Cormorant Garamond font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -67,8 +66,8 @@
       <a href="biography.html">About the Artist</a>
       <ul class="dropdown-menu">
         <li><a href="biography.html">Biography</a></li>
-        <li><a href="/photos/index.html">Photographs</a></li>
-              </ul>
+        <li><a href="photos/index.html">Photographs</a></li>
+      </ul>
     </li>
     
    <li class="dropdown">
@@ -76,18 +75,15 @@
       <ul class="dropdown-menu">
         <li><a href="paintings/exhibitions/index.html">Exhibitions</a></li>
         <li><a href="paintings/gallery/index.html">Gallery</a></li>
-        
       </ul>
     </li>
 
-    
     <li class="dropdown">
       <a href="kaladarshan.html">Kala Darshan</a>
       <ul class="dropdown-menu">
-        <li><a href="../../kala-darshan/kaladarshan-archive.html">Archive</a></li>
-              </ul>
+        <li><a href="kala-darshan/kaladarshan-archive.html">Archive</a></li>
+      </ul>
     </li>
-    
 
     <li><a href="books.html">Books</a></li>
 
@@ -96,14 +92,10 @@
       <ul class="dropdown-menu">
         <li><a href="articlesByMK.html">By Manohar</a></li>
         <li><a href="articlesOnMK.html">On Manohar</a></li>
-    
       </ul>
     </li>
   </ul>
 </nav>
-
-
-      
     </div>
   </header>
 
@@ -129,10 +121,8 @@
   </p>
 
   <h3>
-  <a href="../../kala-darshan/kaladarshan-archive.html" class="archive-link">The Archive</a>: A Glimpse into <em>Kalā Darshan</em>'s Vision
+  <a href="kala-darshan/kaladarshan-archive.html" class="archive-link">The Archive</a>: A Glimpse into <em>Kalā Darshan</em>'s Vision
 </h3>
-
-  
 
   <p>
   This digital archive presents carefully selected pages from each issue – including the cover, title and 
@@ -141,9 +131,9 @@
   full articles, this selection thoughtfully preserves <em>Kalā Darshan</em>’s original voice as a significant and 
   enduring contribution to India’s artistic and cultural discourse. It serves as a valuable resource for scholars, 
   artists, and enthusiasts seeking to understand the intellectual landscape of Indian art in the late 20th century.
-</p>
-
+  </p>
 </section>
+
 <!-- Kaladarshan Video Preview -->
 <section class="kaladarshan-preview">
   <div class="video-thumbnail-wrapper">
@@ -172,17 +162,12 @@
   preload="none"
   class="kd-video-player"
 >
-  <source src="../../kala-darshan/kd_video.mp4" type="video/mp4">
+  <source src="kala-darshan/kd_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 </div>
 
-
-
 </main>
-
-
 
   <!-- 🔽 Footer -->
   <footer class="site-footer">
@@ -196,16 +181,12 @@
   </p>
 </footer>
 
-
 <script>
   // Disable right-click context menu across the page
   document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
   });
 </script>
-<!-- =======================
-     End Anti-Copy Protection Block
-     ======================= -->
 
 <!-- Lightbox Video Script -->
 <script>
@@ -213,14 +194,11 @@
     const lightbox = document.querySelector(".lightbox-kd-video");
     const closeBtn = lightbox.querySelector(".close");
     const video = lightbox.querySelector(".kd-video-player");
-    // Make HTML valid but keep behaviour:
-if (video) {
-  video.setAttribute("controlsList", "nodownload noremoteplayback");
-}
-
+    if (video) {
+      video.setAttribute("controlsList", "nodownload noremoteplayback");
+    }
     const thumbnailLink = document.querySelector('a[href="#kdvideo"]');
 
-    // Open Lightbox from thumbnail
     if (thumbnailLink) {
       thumbnailLink.addEventListener("click", function (e) {
         e.preventDefault();
@@ -230,7 +208,6 @@ if (video) {
       });
     }
 
-    // Close button
     closeBtn.addEventListener("click", function (e) {
       e.preventDefault();
       window.location.hash = "";
@@ -239,7 +216,6 @@ if (video) {
       video.currentTime = 0;
     });
 
-    // ESC key closes lightbox
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && window.location.hash === "#kdvideo") {
         window.location.hash = "";
@@ -249,7 +225,6 @@ if (video) {
       }
     });
 
-    // Handle hashchange: close on back, reopen on forward
     window.addEventListener("hashchange", function () {
       if (window.location.hash === "#kdvideo") {
         lightbox.style.display = "flex";
@@ -261,7 +236,6 @@ if (video) {
       }
     });
 
-    // Auto-close when video ends
     video.addEventListener("ended", function () {
       window.location.hash = "";
       lightbox.style.display = "none";
@@ -269,7 +243,6 @@ if (video) {
       video.currentTime = 0;
     });
 
-    // Initial load check
     if (window.location.hash === "#kdvideo") {
       lightbox.style.display = "flex";
       video.focus();
@@ -279,10 +252,5 @@ if (video) {
   });
 </script>
 
-
-
 </body>
-
-
 </html>
-
