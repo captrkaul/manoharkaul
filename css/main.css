@@ -1859,6 +1859,25 @@ html {
 .exhibition-intro p { text-align: center; }
 
 
+/* Subtle link for documents like Family Tree */
+.archival-note {
+  text-align: center;
+  margin: 2rem 0 1rem;   /* space above + below the line */
+}
+
+.archival-link {
+  font-size: 0.4rem;         
+  font-family: 'Nunito Sans', sans-serif;
+  color: #444;               /* initial subtle color */
+  text-decoration: none;     
+  transition: color 0.2s ease;
+}
+
+.archival-link:hover {
+  color: #0011fb;            /* hover blue, matches your footer */
+  text-decoration: underline;
+}
+
 
 
 
